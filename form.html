@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register</title>
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <form action="" class="form" autocomplete="off">
+            <h1 class="register">Register</h1>
+            <div class="form-group">
+                <label for="display-name" class="form-label"
+                    >Display Name</label
+                >
+                <input class="form-input"
+                    type="text"
+                    name=""
+                    id="display-name"
+                    placeholder="Display name..." spellcheck="false"
+                />
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input class="form-input" type="email" name="" id="email" placeholder="Email..." spellcheck="false" />
+            </div>
+            <div class="form-group">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input class="form-input"
+                    type="tel"
+                    name=""
+                    id="phone"
+                    placeholder="Phone Number..." spellcheck="false"
+                />
+            </div>
+            <div class="form-group">
+                <label for="password" class="form-label">Password</label>
+                <input class="form-input"
+                    type="password"
+                    name=""
+                    id="password"
+                    placeholder="Password..." 
+                />
+            </div>   
+            <div class="form-group">
+                <label for="confirm-password" class="form-label"
+                    >Confirm Password</label
+                >
+                <input class="form-input"
+                    type="password"
+                    name=""
+                    id="confirm-password"
+                    placeholder="Confirm Password..."
+                />
+            </div>   
+            <div class="form-group">
+                <label class="form-label">Gender</label>
+                <input type="radio" name="gender" id="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="other">
+                <label for="other">Other</label>
+            </div>
+            <div class="form-group">
+                <label for="date-of-birth" class="form-label"
+                    >Date of Birth</label
+                >
+                <input type="date" name="" id="date-of-birth">
+            </div>
+            <div class="form-group">
+                <label for="address" class="form-label">Address</label>
+                <input  class="form-input" type="text" name="" id="address" placeholder="Address..." spellcheck="false">
+            </div>
+            <div class="form-group">
+                <label for="avatar" class="form-label">Profile Picture </label>
+                <label for="avatar">
+                    <img src="./img/avatar-placeholder.png" width="100" 
+                    alt="" 
+                    class="avatar-placeholder">
+                <input type="file" name="" id="avatar" hidden></label>
+                
+            </div>
+            <div class="form-group">
+                <div class="form-straight">
+                    <label class="form-label">Communication Preferences
+                    </label>
+                    <label >
+                        <input type="checkbox" name="gender"  >Subscribe to Newsletter
+                    </label>
+                    <label >
+                        <input type="checkbox" name="gender" >Receive Promotional Emails
+                    </label>
+                    <label >
+                        <input type="checkbox" name="gender" >Get Product Updates
+                    </label>
+                </div>
+            </div>
+            <div class="form-group form-footer">
+                <button class="btn submit-btn">Register</button>
+                
+            </div>
+        </form>
+    </body>
+</html>
